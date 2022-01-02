@@ -15,7 +15,7 @@ class WorkermanCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'workerman:server {action}';
+    protected $signature = 'workerman:server {action} {--d|daemon?}';
 
     /**
      * The console command description.
